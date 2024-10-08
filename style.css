@@ -1,0 +1,104 @@
+*{
+    margin:0px;
+}
+ul.navsection{
+    list-style-type: none;
+    gap: 10px;
+    display: flex;
+    background-color: white;
+    color:black;
+    padding: 15px;
+    justify-content: center;
+}
+
+ul.navsection li a{
+    text-decoration: none;
+    color: black;
+}
+.heroSection{
+    background-color: rgb(211, 219, 223);
+    display: flex;
+    gap: 10px;
+    height: 500px;
+    padding: 60px;
+    
+}
+
+.heroCaption{
+    width: 100%;
+    /* padding-top:  100px;  */
+    /* margin: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    /* align-items: center; */
+
+}
+.heroCaption a {
+    border: 1px solid #7e69d3;
+    background-color: #7e69d3;
+    padding: 15px 20px;
+    color: white;
+    width: 10%;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+.heroCaption a :hover {
+    background-color: white;
+    color: #7e69d3;
+    border: 1px solid #7e69d3;
+
+}
+.heroImage{
+    width: 50%;
+    border-radius: 50%;
+    
+
+}
+.footerSection{
+    /* background-color: black color white; */
+     height: 200px;
+    display: flex;
+    gap: 20px;
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    margin-left: 5px;
+    
+}
+.firstSection{
+    margin: 10px;
+    padding: 10px; 
+
+}
+.secondSection{
+    margin: 10px;
+    padding: 10px; 
+}
+.thirdSection {
+     margin: 10px;
+    padding: 10px; 
+
+
+}
+.fourthSection{
+    margin: 10px;
+    padding: 10px; 
+}
+/* @media only screen and (max-width: 1200px) { */
+    /* .heroSection{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 70px;
+        text-align: center;
+    }
+    .heroCaption{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        align-items: center; */
+    }
+}
